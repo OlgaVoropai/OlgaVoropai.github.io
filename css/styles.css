@@ -13227,5 +13227,447 @@ p+p {
 
 
 /* -----------------------------------------------End Обо мне----------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------Start Services----------------------------------------------- */
+
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+h2,h3,h6{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;}
+a:hover{color:#0056b3;text-decoration:underline;}
+h2,h3,h6{margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h2{font-size:2rem;}
+h3{font-size:1.75rem;}
+h6{font-size:1rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-4,.col-md-6,.col-sm-12{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+@media (min-width:576px){
+.col-sm-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:768px){
+.col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media (min-width:992px){
+.col-lg-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+h2,h3,p{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/flaticon.css */
+i[class^="flaticon-"]:before{font-family:flaticon!important;font-style:normal;font-weight:normal!important;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.flaticon-programming:before{content:"\f104";}
+.flaticon-cloud:before{content:"\f105";}
+.flaticon-project-management:before{content:"\f107";}
+.flaticon-coding:before{content:"\f10d";}
+.flaticon-cpu-1:before{content:"\f112";}
+.flaticon-mobile-app:before{content:"\f124";}
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/style.css */
+.section-padding{padding:100px 0;}
+a{text-decoration:none;-webkit-transition:0.4s;transition:0.4s;outline:0!important;color:#0b0b31;}
+a:hover{text-decoration:none;color:#7b68ee;}
+h2,h3,h6{font-weight:700;line-height:1.4;font-family:'Dosis', sans-serif;}
+p{font-size:15px;line-height:1.8;color:#5f5f5f;margin-bottom:15px;font-weight:400;letter-spacing:0.3px;font-family:'Catamaran', sans-serif;}
+.section-title{text-align:center;margin-bottom:65px;line-height:1.5;}
+.section-title h6{font-size:16px;font-weight:700;color:#FF9800;letter-spacing:0.5px;text-transform:uppercase;}
+.section-title h2{font-size:40px;color:#0b0b31;margin:10px 0 0 0;font-weight:800;}
+.services-section .section-title{margin-bottom:35px;}
+.single-services-item{position:relative;z-index:1;display:block;padding:35px 30px;text-align:left;border-radius:3px;background-color:#ffffff;margin-top:30px;-webkit-box-shadow:5px 7px 15px 2px rgba(82, 90, 101, 0.12);-moz-box-shadow:5px 7px 15px 2px rgba(82, 90, 101, 0.12);box-shadow:5px 7px 15px 2px rgba(82, 90, 101, 0.12);-webkit-transition:all 500ms ease-out;transition:all 500ms ease-out;will-change:transform;}
+.services-icon{display:inline-block;margin-bottom:20px;-webkit-transition:0.5s;transition:0.5s;will-change:transform;}
+.services-icon i{color:#ff561d;font-size:55px;-webkit-transition:0.5s;transition:0.5s;}
+.single-services-item h3{font-size:20px;font-weight:700;margin-bottom:0;-webkit-transition:all 400ms ease-out;transition:all 400ms ease-out;}
+.single-services-item p{font-size:15px;margin-top:15px;margin-bottom:0;-webkit-transition:all 400ms ease-out;transition:all 400ms ease-out;will-change:transform;}
+.single-services-item .services-btn-link{margin-top:16px;}
+.single-services-item .services-btn-link .services-link{display:inline-block;font-size:16px;color:#ff561d;letter-spacing:0.5px;font-weight:700;-webkit-transition:all 400ms ease-out;transition:all 400ms ease-out;text-decoration:underline;font-family:'Dosis', sans-serif;}
+.single-services-item:hover{-webkit-transform:translateY(-10px);transform:translateY(-10px);}
+.single-services-item:hover .services-icon{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);}
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/responsive.css */
+@media only screen and (max-width: 767px){
+.section-title h2{font-size:30px;}
+}
+
+
+/* -----------------------------------------------End Services----------------------------------------------- */
+
+/* -----------------------------------------------Start FAQ----------------------------------------------- */
+
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+p{margin-top:0;margin-bottom:1rem;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;}
+a:hover{color:#0056b3;text-decoration:underline;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-6{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+@media (min-width:992px){
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+p{orphans:3;widows:3;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/fontawesome.min.css */
+.fa{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-plus:before{content:"\f067";}
+.fa{font-family:"Font Awesome 5 Free";}
+.fa{font-weight:900;}
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/style.css */
+ul{padding:0;margin:0;list-style:none;}
+.section-padding{padding:100px 0;}
+a{text-decoration:none;-webkit-transition:0.4s;transition:0.4s;outline:0!important;color:#0b0b31;}
+a:hover{text-decoration:none;color:#7b68ee;}
+p{font-size:15px;line-height:1.8;color:#5f5f5f;margin-bottom:15px;font-weight:400;letter-spacing:0.3px;font-family:'Catamaran', sans-serif;}
+p:last-child{margin-bottom:0;}
+.faq-accordion .accordion{list-style-type:none;padding:0;margin:0;padding-left:0;margin-bottom:0;position:relative;}
+.faq-accordion .accordion .accordion-item{display:block;margin-bottom:30px;}
+.faq-accordion .accordion .accordion-item:last-child{margin-bottom:0;}
+.faq-accordion .accordion .accordion-item .accordion-title{color:#333;position:relative;font-size:18px;font-weight:600;display:block;padding:15px 15px;padding-right:25px;background-color:#f3f3f9;border-radius:5px;cursor:pointer;border-left:3px solid #7b68ee;}
+.faq-accordion .accordion .accordion-item .accordion-title i{position:absolute;right:15px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);color:#333;-webkit-transition:0.5s;transition:0.5s;font-size:15px;}
+.faq-accordion .accordion .accordion-item .accordion-content{display:none;background-color:#ffffff;margin-bottom:0;padding:20px 15px;font-size:15px;-webkit-box-shadow:-1px 5px 20px 0px rgb(82 90 101 / 10%);box-shadow:-1px 5px 20px 0px rgb(82 90 101 / 10%);}
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/responsive.css */
+@media only screen and (max-width: 767px){
+.faq-accordion .accordion .accordion-item .accordion-title{padding:20px;font-size:18px;}
+.faq-accordion.first-faq-box{margin-bottom:30px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.faq-accordion.first-faq-box{margin-bottom:30px;}
+}
+
+/* -----------------------------------------------End FAQ----------------------------------------------- */
+
+/* -----------------------------------------------Start Contacts1----------------------------------------------- */
+
+/*! CSS Used from: https://theme.bitspecksolutions.com/html-template/edubit/demo/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+h4{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+svg:not(:root){overflow:hidden;}
+h4{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h4{font-size:1.5rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-4,.col-md-12,.col-md-6,.col-sm-12{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:576px){
+.col-sm-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:768px){
+.col-md-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+.col-md-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:992px){
+.col-lg-4{-webkit-box-flex:0;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
+}
+.mb-0{margin-bottom:0!important;}
+.mb-4{margin-bottom:1.5rem!important;}
+.text-center{text-align:center!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+p{orphans:3;widows:3;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: https://theme.bitspecksolutions.com/html-template/edubit/demo/css/style.css */
+*{padding:0;margin:0;outline:0px;scroll-behavior:smooth;}
+h4{color:#473939;font-weight:bold;line-height:2.3rem;font-family:'Poppins', sans-serif;}
+p{color:#6c6c6c;line-height:1.5rem;text-transform:none;font-weight:400;margin-bottom:20px;}
+section{padding:100px 0px;}
+.contact-details{box-shadow:0px 4px 15px -9px rgb(0 0 0 / 50%);padding:30px 20px;}
+.contact-details p{margin-bottom:0px;}
+.contact-details svg path{fill:#0b0bcc;}
+#contact-page{padding:100px 0px 0px;}
+/*! CSS Used from: https://theme.bitspecksolutions.com/html-template/edubit/demo/css/responsive.css */
+@media screen and (max-width: 1799.89px){
+section{overflow:hidden;}
+}
+@media screen and (max-width: 575.98px){
+section{padding:40px 0px;}
+}
+@media screen and (max-width: 375px){
+section{padding:0px;}
+section{padding:40px 0px;}
+}
+@media screen and (max-width: 320px){
+section{padding:40px 0px;overflow:hidden;}
+}
+
+/* -----------------------------------------------End Contacts1----------------------------------------------- */
+
+/* -----------------------------------------------Start Contacts2---------------------------------------------*/
+
+/*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/bootstrap.min.css ; media=all */
+@media all{
+  @media print{
+  *,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+  p{orphans:3;widows:3;}
+  }
+  *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+  :after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+  p{margin:0 0 10px;}
+  .row{margin-right:-15px;margin-left:-15px;}
+  .col-lg-4,.col-md-4,.col-sm-6,.col-xs-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+  .col-xs-12{float:left;}
+  .col-xs-12{width:100%;}
+  @media (min-width:768px){
+  .col-sm-6{float:left;}
+  .col-sm-6{width:50%;}
+  }
+  @media (min-width:992px){
+  .col-md-4{float:left;}
+  .col-md-4{width:33.33333333%;}
+  }
+  @media (min-width:1200px){
+  .col-lg-4{float:left;}
+  .col-lg-4{width:33.33333333%;}
+  }
+  .row:after,.row:before{display:table;content:" ";}
+  .row:after{clear:both;}
+  }
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/font-awesome.min.css ; media=all */
+  @media all{
+  .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+  .fa-map-marker:before{content:"\f041";}
+  .fa-phone:before{content:"\f095";}
+  .fa-envelope:before{content:"\f0e0";}
+  }
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/theme-default.css ; media=all */
+  @media all{
+  p{font-weight:400;font-style:normal;}
+  i{font-style:normal;font-weight:400;}
+  *::-moz-selection{background:#4fc1f0;color:#212121;text-shadow:none;}
+  ::-moz-selection{background:#4fc1f0;color:#212121;text-shadow:none;}
+  ::selection{background:#4fc1f0;color:#212121;text-shadow:none;}
+  ::placeholder{color:#212121;font-size:14px;}
+  ::-webkit-input-placeholder{color:#212121;}
+  ::-moz-placeholder{color:#212121;}
+  :-ms-input-placeholder{color:#212121;}
+  :-moz-placeholder{color:#212121;}
+  }
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/unittest.css ; media=all */
+  @media all{
+  i{font-style:italic;}
+  }
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/style.css ; media=all */
+  @media all{
+  .contact_info{border:1px solid #ddd;padding:54px 20px 0px;border-radius:10px;}
+  .single_plases{margin-bottom:50px;}
+  .single_plases_inner{text-align:left;}
+  .plases_icon{float:left;overflow:hidden;}
+  .plases_icon i{font-size:26px;overflow:hidden;width:45px;height:45px;line-height:43px;border-radius:100%;text-align:center;border:1px solid #ddd;margin-right:15px;transition:.3s;}
+  .single_plases:hover .plases_icon i{background:#eb1b2b;color:#fff;border-color:#eb1b2b;}
+  .plases_text p{font-size:14px;font-weight:400;margin-top:0;margin-bottom:0px;}
+  .contact_information{margin-bottom:50px;}
+  ::-webkit-input-placeholder{color:#666;}
+  ::-moz-placeholder{color:#666;}
+  :-ms-input-placeholder{color:#666;}
+  :-moz-placeholder{color:#666;}
+  }
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/responsive.css ; media=all */
+  @media all{
+  @media (min-width: 768px) and (max-width: 991px){
+  .contact_info{margin-bottom:50px;}
+  }
+  @media (max-width: 767px){
+  .single_plases{margin-bottom:42px;}
+  .contact_info{margin-bottom:50px;}
+  }
+  }
+ 
+
+/* -----------------------------------------------End Contacts2----------------------------------------------- */
+
+
+/* -----------------------------------------------Start social----------------------------------------------- */
+
+/*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0 ; media=all */
+@media all{
+  .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+  .fa-twitter:before{content:"\f099";}
+  .fa-facebook:before{content:"\f09a";}
+  .fa-pinterest:before{content:"\f0d2";}
+  .fa-google-plus:before{content:"\f0d5";}
+  .fa-linkedin:before{content:"\f0e1";}
+  }
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/themes/kava/style.css?ver=2.0.2 ; media=all */
+  @media all{
+  a{background-color:transparent;text-decoration:none;}
+  a:active,a:hover{outline:0;}
+  *,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit;}
+  }
+  /*! CSS Used from: Embedded */
+  a{color:#c7d13e;}
+  a:hover{color:#3b3d42;}
+  ::-webkit-input-placeholder{color:#a1a2a4;}
+  ::-moz-placeholder{color:#a1a2a4;}
+  :-moz-placeholder{color:#a1a2a4;}
+  :-ms-input-placeholder{color:#a1a2a4;}
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/themes/kava/theme.css?ver=2.0.2 ; media=all */
+  @media all{
+  i{font-style:italic;}
+  ::-moz-placeholder{opacity:1;}
+  :-moz-placeholder{opacity:1;}
+  a{text-decoration:none;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;}
+  a:focus{outline:none;}
+  a:hover,a:active{text-decoration:none;}
+  }
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.9.12 ; media=all */
+  @media all{
+  .fadeInUp{animation-name:fadeInUp;}
+  }
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.9.12 ; media=all */
+  @media all{
+  .elementor-screen-only{position:absolute;top:-10000em;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+  .elementor *,.elementor :after,.elementor :before{-webkit-box-sizing:border-box;box-sizing:border-box;}
+  .elementor a{-webkit-box-shadow:none;box-shadow:none;text-decoration:none;}
+  .elementor-widget-wrap>.elementor-element{width:100%;}
+  .elementor-widget{position:relative;}
+  .elementor-widget:not(:last-child){margin-bottom:20px;}
+  .elementor-element .elementor-widget-container{-webkit-transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;-o-transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;}
+  .elementor-icon{display:inline-block;line-height:1;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;color:#818a91;font-size:50px;text-align:center;}
+  .elementor-icon:hover{color:#818a91;}
+  .elementor-icon i{width:1em;height:1em;position:relative;display:block;}
+  .elementor-icon i:before{position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+  .elementor-shape-circle .elementor-icon{-webkit-border-radius:50%;border-radius:50%;}
+  .elementor-social-icons-wrapper{font-size:0;}
+  .elementor-social-icon{background-color:#818a91;font-size:25px;text-align:center;padding:.5em;margin-right:5px;cursor:pointer;}
+  .elementor-social-icon i{color:#fff;}
+  .elementor-social-icon:last-child{margin:0;}
+  .elementor-social-icon:hover{opacity:.9;color:#fff;}
+  .elementor-social-icon-facebook{background-color:#3b5998;}
+  .elementor-social-icon-google-plus{background-color:#dd4b39;}
+  .elementor-social-icon-linkedin{background-color:#0077b5;}
+  .elementor-social-icon-pinterest{background-color:#bd081c;}
+  .elementor-social-icon-twitter{background-color:#1da1f2;}
+  .elementor-shape-circle .elementor-icon.elementor-social-icon{-webkit-border-radius:50%;border-radius:50%;}
+  .animated{-webkit-animation-duration:1.25s;animation-duration:1.25s;}
+  .animated.animated-slow{-webkit-animation-duration:2s;animation-duration:2s;}
+  @media (prefers-reduced-motion:reduce){
+  .animated{-webkit-animation:none;animation:none;}
+  }
+  }
+  /*! CSS Used from: Embedded */
+  .elementor-21 .elementor-element.elementor-element-41a2594 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e{text-align:center;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-social-icon{background-color:rgba(255,255,255,0);font-size:24px;padding:0.6em;border-style:solid;border-width:2px 2px 2px 2px;border-color:#577188;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-social-icon i{color:#577188;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-social-icon:not(:last-child){margin-right:10px;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-icon{border-radius:50px 50px 50px 50px;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-social-icon:hover{background-color:#238a8b;border-color:rgba(0,0,0,0);}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-social-icon:hover i{color:#ffffff;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+  @media (max-width:767px){
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-social-icon{font-size:18px;}
+  .elementor-21 .elementor-element.elementor-element-b1ca22e .elementor-social-icon:not(:last-child){margin-right:5px;}
+  }
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=2.9.12 ; media=all */
+  @media all{
+  .fa{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+  .fa-facebook:before{content:"\f09a";}
+  .fa-google-plus:before{content:"\f2b3";}
+  .fa-linkedin:before{content:"\f08c";}
+  .fa-pinterest:before{content:"\f0d2";}
+  .fa-twitter:before{content:"\f099";}
+  .fa{font-family:"Font Awesome 5 Free";}
+  .fa{font-weight:900;}
+  }
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=2.9.12 ; media=all */
+  @media all{
+  .fa.fa-facebook,.fa.fa-twitter{font-family:"Font Awesome 5 Brands";font-weight:400;}
+  .fa.fa-facebook:before{content:"\f39e";}
+  .fa.fa-google-plus,.fa.fa-pinterest{font-family:"Font Awesome 5 Brands";font-weight:400;}
+  .fa.fa-google-plus:before{content:"\f0d5";}
+  .fa.fa-linkedin{font-family:"Font Awesome 5 Brands";font-weight:400;}
+  .fa.fa-linkedin:before{content:"\f0e1";}
+  }
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0 ; media=all */
+  @media all{
+  .fa{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+  .fa-facebook:before{content:"\f09a";}
+  .fa-google-plus:before{content:"\f2b3";}
+  .fa-linkedin:before{content:"\f08c";}
+  .fa-pinterest:before{content:"\f0d2";}
+  .fa-twitter:before{content:"\f099";}
+  }
+  /*! CSS Used from: https://ld-wp73.template-help.com/wordpress/prod_1680/v1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0 ; media=all */
+  @media all{
+  .fa{font-family:"Font Awesome 5 Free";font-weight:900;}
+  }
+  /*! CSS Used keyframes */
+  @keyframes fadeInUp{from{opacity:0;transform:translate3d(0,100%,0);}to{opacity:1;transform:none;}}
+  /*! CSS Used fontfaces */
+
+/* -----------------------------------------------End Social----------------------------------------------- */
+
+/* -----------------------------------------------Start----------------------------------------------- */
+
+
+
+/* -----------------------------------------------End----------------------------------------------- */
