@@ -11838,7 +11838,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin: 0 0 20px;
   padding: 0;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.3rem;
   line-height: 1.2;
   color: #fff;
 }
@@ -11856,7 +11856,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin: 0 0 15px;
   padding: 0;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 1.75rem;
   line-height: 1.2;
   color: #fff;
 }
@@ -11881,26 +11881,57 @@ a.cv_btn:hover {
   color: #33546D;
   background-color: #E8F0F3;
 }
-@media (max-height: 440px) {
-  /* header.masthead {
-    background: url("../assets/img/7.jpg");
-    background-position: left;
-  } */
+
+@media (min-height: 320px) {
+
+  .header_content h6 {
+    margin: 0;
+  }
+  
+  .header_content h1 {
+    margin: 0;
+  }
+  
+  .header_content h3 {
+    margin: 0;
+  }
   .home-content {
-    padding-top: 11rem;    
+    padding-top: 5rem;    
   }
 }
+
+@media (min-height: 576px) {
+
+  .header_content h6 {
+    margin: 0 0 20px;
+  }
+
+  .header_content h1 {
+    margin: 0 0 25px;
+  }
+
+  .header_content h3 {
+    margin: 0 0 15px;
+  }
+  .home-content {
+    padding-top: 1rem;    
+  }
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+  background-image: url("../assets/img/header-bg-me-center-down.jpg");
+  }
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
     padding-top: 0;
     padding-bottom: 0;
+    
   }
-
-  /* header.masthead p {
-    font-size: 1.15rem;
-  } */
 
   header.masthead h1,
   header.masthead .h1 {
@@ -11911,7 +11942,7 @@ a.cv_btn:hover {
 @media (min-width: 1200px) {
   header.masthead h1,
   header.masthead .h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 /* ------------------------------------------------End Masthead-------------------------------------------- */
