@@ -497,7 +497,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -11347,8 +11347,8 @@ p {
 }
 
 #mainNav {
-  /* padding-top: 1rem;
-  padding-bottom: 1rem; */
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   background-color: var(--bs-body-three);
 }
 #mainNav .navbar-toggler {
