@@ -90,7 +90,7 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: var(--bs-body-five);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -11314,7 +11314,8 @@ p {
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
+  color: var(--bs-body-five);
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11945,6 +11946,50 @@ a.cv_btn:hover {
   }
 }
 /* ------------------------------------------------End Masthead-------------------------------------------- */
+
+
+/* ------------------------------------------------Start About---------------------------------------------------- */
+
+.wow-outer span {
+  display: block;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.row-50 {
+  margin-bottom: -50px;
+}
+
+.row-50:empty {
+  margin-bottom: 0;
+}
+
+.row-50>* {
+  margin-bottom: 50px;
+}
+
+.wow-outer {
+  position: relative;
+  overflow: hidden;
+}
+
+.wow {
+  backface-visibility: hidden;
+}
+.bg-one {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-body-one);
+}
+
+/* ------------------------------------------------End About---------------------------------------------------- */
 
 
 /* ------------------------------------------------Start---------------------------------------------------- */
