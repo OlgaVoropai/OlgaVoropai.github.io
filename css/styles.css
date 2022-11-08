@@ -245,7 +245,7 @@ sup {
 
 a {
   color: #ffc800;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #cca000;
@@ -4698,6 +4698,7 @@ textarea.form-control-lg {
   background-color: #fffae6;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
+
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e6b400'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   transform: rotate(-180deg);
@@ -11726,7 +11727,7 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: var(--bs-body-five);
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -11783,6 +11784,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: var(--bs-body-three);
+  color: var(--bs-body-one);
 }
 
 
@@ -11989,8 +11992,660 @@ img {
   background-color: var(--bs-body-one);
 }
 
-/* ------------------------------------------------End About---------------------------------------------------- */
+/* ------------------------------------------------End About ---------------------------------------------------- */
 
+
+/* ------------------------------------------------Start Services---------------------------------------------------- */
+
+
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/flaticon.css */
+i[class^="flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-programming:before {
+  content: "\f104";
+}
+
+.flaticon-cloud:before {
+  content: "\f105";
+}
+
+.flaticon-project-management:before {
+  content: "\f107";
+}
+
+.flaticon-coding:before {
+  content: "\f10d";
+}
+
+.flaticon-cpu-1:before {
+  content: "\f112";
+}
+
+.flaticon-mobile-app:before {
+  content: "\f124";
+}
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/style.css */
+/* a{text-decoration:none;-webkit-transition:0.4s;transition:0.4s;outline:0!important;color:#0b0b31;}
+a:hover{text-decoration:none;color:#7b68ee;}
+h3{font-weight:700;line-height:1.4;font-family:'Dosis', sans-serif;}
+p{font-size:15px;line-height:1.8;color:#5f5f5f;margin-bottom:15px;font-weight:400;letter-spacing:0.3px;font-family:'Catamaran', sans-serif;} */
+
+.single-services-item {
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 35px 30px;
+  text-align: left;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(82, 90, 101, 0.15);
+  -moz-box-shadow: 5px 5px 10px 5px rgba(82, 90, 101, 0.15);
+  box-shadow: 5px 5px 10px 5px rgba(82, 90, 101, 0.15);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  will-change: transform;
+  border-radius: 12px;
+  border: 1px #E8F0F3 solid;
+}
+
+.services-icon {
+  display: inline-block;
+  margin-bottom: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  will-change: transform;
+}
+
+.services-icon i {
+  color: #ff561d;
+  font-size: 55px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.single-services-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+}
+
+.single-services-item p {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+
+.single-services-item .services-btn-link {
+  margin-top: 16px;
+}
+
+.single-services-item .services-btn-link .services-link {
+  display: inline-block;
+  font-size: 16px;
+  color: #ff561d;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-decoration: underline;
+  font-family: 'Dosis', sans-serif;
+}
+
+.single-services-item:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-box-shadow: 5px 5px 10px 10px rgba(82, 90, 101, 0.25);
+  -moz-box-shadow: 5px 5px 10px 10px rgba(82, 90, 101, 0.25);
+  box-shadow: 5px 5px 10px 10px rgba(82, 90, 101, 0.25);
+}
+
+.single-services-item:hover .services-icon {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+/* ------------------------------------------------End Services---------------------------------------------------- */
+
+
+/* ------------------------------------------------Start FAQ---------------------------------------------------- */
+
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/bootstrap.min.css */
+
+/* 
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width:576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:992px) {
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+} */
+
+
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/fontawesome.min.css */
+.fa {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-plus:before {
+  content: "\f067";
+}
+
+.fa {
+  font-family: "Font Awesome 5 Free";
+}
+
+.fa {
+  font-weight: 900;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.faq-accordion .accordion {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.faq-accordion .accordion .accordion-item {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.faq-accordion .accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq-accordion .accordion .accordion-item .accordion-title {
+  color: var(--bs-body-five);
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  padding: 15px 15px;
+  padding-right: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  border-left: 3px solid var(--bs-body-three);
+}
+
+.faq-accordion .accordion .accordion-item .accordion-title i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #333;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-size: 15px;
+}
+
+.faq-accordion .accordion .accordion-item .accordion-content {
+  display: none;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  padding: 20px 15px;
+  font-size: 15px;
+  -webkit-box-shadow: -1px 5px 20px 0px rgb(82 90 101 / 10%);
+  box-shadow: -1px 5px 20px 0px rgb(82 90 101 / 10%);
+}
+
+/*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/responsive.css */
+@media only screen and (max-width: 767px) {
+  .faq-accordion .accordion .accordion-item .accordion-title {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .faq-accordion.first-faq-box {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-accordion.first-faq-box {
+    margin-bottom: 30px;
+  }
+}
+
+.faq-accordion .accordion .accordion-item .active.accordion-title {
+  color: var(--bs-body-one);
+  background: var(--bs-body-four);
+}
+
+.faq-accordion .accordion .accordion-item .active.accordion-title i {
+  color: #fff;
+}
+
+.faq-accordion .accordion .accordion-item .accordion-title.active i::before {
+  content: "\f068";
+}
+/* ul{padding:0;margin:0;list-style:none;} */
+a{text-decoration:none;-webkit-transition:0.7s;transition:0.7s;outline:0!important;color:#0b0b31;}
+a:hover{text-decoration:none;color:#7b68ee;}
+/* p{font-size:15px;line-height:1.8;color:#5f5f5f;margin-bottom:15px;font-weight:400;letter-spacing:0.3px;font-family:'Catamaran', sans-serif;}
+p:last-child{margin-bottom:0;} */
+/* ------------------------------------------------End FAQ---------------------------------------------------- */
+
+/* ------------------------------------------------Start Contacts---------------------------------------------------- */
+
+/*! CSS Used from: https://theme.bitspecksolutions.com/html-template/edubit/demo/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+h4{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+/* svg:not(:root){overflow:hidden;} */
+h4{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h4{font-size:1.5rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-4,.col-md-12,.col-md-6,.col-sm-12{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:576px){
+.col-sm-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:768px){
+.col-md-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+.col-md-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:992px){
+.col-lg-4{-webkit-box-flex:0;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
+}
+.mb-0{margin-bottom:0!important;}
+.mb-4{margin-bottom:1.5rem!important;}
+.text-center{text-align:center!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+p{orphans:3;widows:3;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: https://theme.bitspecksolutions.com/html-template/edubit/demo/css/style.css */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0px;
+  scroll-behavior: smooth;
+}
+
+h4 {
+  color: #473939;
+  font-weight: bold;
+  line-height: 2.3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: #6c6c6c;
+  line-height: 1.5rem;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0px;
+}
+
+.contact-details {
+  box-shadow: 4px 4px 15px -6px rgb(0 0 0 / 35%);
+  padding: 30px 20px;
+  border-radius: 12px;
+  background-color: var(--bs-body-one);
+}
+
+/* .contact-details p{margin-bottom:0px;} */
+/* .contact-details svg path {
+  fill: #0b0bcc;
+} */
+
+#contact-page {
+  padding: 100px 0px 0px;
+}
+
+/*! CSS Used from: https://theme.bitspecksolutions.com/html-template/edubit/demo/css/responsive.css */
+@media screen and (max-width: 1799.89px) {
+  section {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  section {
+    padding: 40px 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section {
+    padding: 0px;
+  }
+
+  section {
+    padding: 40px 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  section {
+    padding: 40px 0px;
+    overflow: hidden;
+  }
+}
+
+
+/* ------------------------------------------------End Contacts---------------------------------------------------- */
+
+/* ------------------------------------------------Start contacts1---------------------------------------------------- */
+
+/*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/bootstrap.min.css ; media=all */
+@media all {
+  @media print {
+
+    *,
+    :after,
+    :before {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: 0 0 !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    p {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  p {
+    margin: 0 0 10px;
+  }
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col-lg-4,
+  .col-md-4,
+  .col-sm-6,
+  .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .col-xs-12 {
+    float: left;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  @media (min-width:768px) {
+    .col-sm-6 {
+      float: left;
+    }
+
+    .col-sm-6 {
+      width: 50%;
+    }
+  }
+
+  @media (min-width:992px) {
+    .col-md-4 {
+      float: left;
+    }
+
+    .col-md-4 {
+      width: 33.33333333%;
+    }
+  }
+
+  @media (min-width:1200px) {
+    .col-lg-4 {
+      float: left;
+    }
+
+    .col-lg-4 {
+      width: 33.33333333%;
+    }
+  }
+
+  .row:after,
+  .row:before {
+    display: table;
+    content: " ";
+  }
+
+  .row:after {
+    clear: both;
+  }
+}
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/font-awesome.min.css ; media=all */
+  @media all{
+  .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+  .fa-map-marker:before{content:"\f041";}
+  .fa-phone:before{content:"\f095";}
+  .fa-envelope:before{content:"\f0e0";}
+  }
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/style.css ; media=all */
+    @media all {
+      .contact_info {
+        border: 1px solid #ddd;
+        padding: 54px 20px 0px;
+        border-radius: 10px;
+      }
+  
+      .single_plases {
+        margin-bottom: 10px;
+      }
+  
+      .single_plases_inner {
+        text-align: center;
+      }
+  
+      .plases_icon {
+        /* float: left; */
+        overflow: hidden;
+      }
+  
+      .plases_icon i {
+        font-size: 53px;
+        overflow: hidden;
+        width: 86px;
+        height: 86px;
+        line-height: 86px;
+        border-radius: 100%;
+        text-align: center;
+        border: 3px solid var(--bs-body-four);
+        margin-right: 15px;
+        transition: .3s;
+      }
+  
+      .single_plases:hover .plases_icon i {
+        background: var(--bs-body-two);
+        color: #fff;
+        border-color: var(--bs-body-two);
+      }
+  
+      .plases_text p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0px;
+      }
+  
+      .contact_information {
+        margin-bottom: 50px;
+      }
+  
+      ::-webkit-input-placeholder {
+        color: #666;
+      }
+  
+      ::-moz-placeholder {
+        color: #666;
+      }
+  
+      :-ms-input-placeholder {
+        color: #666;
+      }
+  
+      :-moz-placeholder {
+        color: #666;
+      }
+    }
+  /*! CSS Used from: https://html.dreamitsolution.net/eduzone/assets/css/responsive.css ; media=all */
+  @media all{
+  @media (min-width: 768px) and (max-width: 991px){
+  .contact_info{margin-bottom:50px;}
+  }
+  @media (max-width: 767px){
+  .single_plases{margin-bottom:42px;}
+  .contact_info{margin-bottom:50px;}
+  }
+  }
+
+
+/* ------------------------------------------------End contacts1---------------------------------------------------- */
 
 /* ------------------------------------------------Start---------------------------------------------------- */
 /* ------------------------------------------------End---------------------------------------------------- */
