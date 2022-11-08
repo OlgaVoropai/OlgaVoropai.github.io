@@ -7254,8 +7254,8 @@ textarea.form-control-lg {
 }
 
 .mx-2 {
-  margin-right: 0.5rem !important;
-  margin-left: 0.5rem !important;
+  margin: 0.5rem !important;
+  /* margin-left: 0.5rem !important; */
 }
 
 .mx-3 {
@@ -11351,7 +11351,7 @@ p {
   padding: 0;
   border-radius: 100%;
   transition: 0.7s;
-}
+  }
 
 #mainNav {
   padding-top: 0.625rem;
