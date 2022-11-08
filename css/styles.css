@@ -3016,7 +3016,7 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 2rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -3248,19 +3248,23 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-  color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  color: var(--bs-body-one);
+  background-color: var(--bs-body-five);
+  border-color: var(--bs-body-one);
+  border-width: 2px 2px 2px 2px;
 }
 .btn-dark:hover {
-  color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  /* color: var(--bs-body-one);
+  background-color: var(--bs-body-five);
+  border-color: var(--bs-body-one); */
+  color: var(--bs-body-five);
+  background-color: var(--bs-body-one);
+  border-color: var(--bs-body-five);
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  background-color: var(--bs-body-four);
+  border-color: #fff;
   box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
 }
 .btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
@@ -11339,13 +11343,14 @@ p {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 4rem;
+  width: 4rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0;
   border-radius: 100%;
+  transition: 0.7s;
 }
 
 #mainNav {
@@ -11727,7 +11732,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: var(--bs-body-five);
+  background-color: rgb(51 83 108 / 85%);
+  /* background-color: var(--bs-body-five); */
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -11784,7 +11790,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: var(--bs-body-three);
+  background-color: var(--bs-body-five);
   color: var(--bs-body-one);
 }
 
@@ -12299,6 +12305,8 @@ ul {
   font-size: 15px;
   -webkit-box-shadow: -1px 5px 20px 0px rgb(82 90 101 / 10%);
   box-shadow: -1px 5px 20px 0px rgb(82 90 101 / 10%);
+  /* border: 1px solid #ffffff;
+  border-radius: 12px; */
 }
 
 /*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/responsive.css */
@@ -12321,7 +12329,7 @@ ul {
 
 .faq-accordion .accordion .accordion-item .active.accordion-title {
   color: var(--bs-body-one);
-  background: var(--bs-body-four);
+  background-color: var(--bs-body-four);
 }
 
 .faq-accordion .accordion .accordion-item .active.accordion-title i {
@@ -12390,14 +12398,14 @@ p{orphans:3;widows:3;}
 }
 
 h4 {
-  color: #473939;
+  /* color: #473939; */
   font-weight: bold;
   line-height: 2.3rem;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 p {
-  color: #6c6c6c;
+  /* color: #6c6c6c; */
   line-height: 1.5rem;
   text-transform: none;
   font-weight: 400;
