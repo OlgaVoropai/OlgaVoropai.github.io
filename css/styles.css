@@ -12310,6 +12310,17 @@ ul {
   border-radius: 12px; */
 }
 
+.faq-accordion.first-faq-box {
+  margin-top: 30px;
+}
+.faq-accordion.second-faq-box {
+  margin-top: 30px;
+}
+@media (max-width:992px) {
+  .faq-accordion.second-faq-box {
+    margin-top: 0px;
+  }
+}
 /*! CSS Used from: https://cutesolution.com/html/Techvio/assets/css/responsive.css */
 @media only screen and (max-width: 767px) {
   .faq-accordion .accordion .accordion-item .accordion-title {
