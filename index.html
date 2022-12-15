@@ -33,7 +33,7 @@
             <div class="languagebar smartfone">
                 <ul>                    
                     <li class="active"><a href="#!" title="Українською мовою" class="ukr">UA</a></li>
-                    <li><a href="#!" title="In English" class="eng">EN</a></li>
+                    <li><a href="eng/index.html" title="In English" class="eng">EN</a></li>
                     <li><a href="#!" title="На русском языке" class="rus">RU</a></li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#qualification">Квалификация</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Квалификация</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">Вопросы</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
@@ -83,14 +83,14 @@
                 <div class="col-md-10 col-lg-6 wow-outer"><img class="img-responsive wow" src="assets/img/about.jpg" alt="">
                 </div>
                 <div class="col-md-10 col-lg-6 col-xl-5">
-                    <p class="wow-outer"><span class="wow">Здравствуйте! Меня зовут Ольга! Закончив Харьковский национальный педагогический университет я работала учителем младших классов в общеобразовательной школе; репетитором английского языка для детей; оператором сall-центра по оказанию технической поддержки пользователям, находящимся в США; преподавателем на курсах английского языка (групповые и индивидуальные занятия, все уровни).</span></p>
+                    <p class="wow-outer"><span class="wow">Здравствуйте! Меня зовут Ольга! Я закончила Харьковский национальный педагогический университет, работала учителем младших классов в общеобразовательной школе; репетитором английского языка для детей; оператором сall-центра по оказанию технической поддержки пользователям, находящимся в США; преподавателем на курсах английского языка (групповые и индивидуальные занятия, все уровни).</span></p>
                     <p class="wow-outer"><span class="wow">В свободное время люблю путешествовать и снимать на камеру посещенные места. Обожаю искать что-то новое в интернете - программы, инструменты для работы, полезные видео и просто зрелищный контент.  Одно из моих наибольших увлечений — это кулинария, а также педагогика, ведь я - мама двоих детей.</span></p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Qualification-->
-    <section class="page-section bg-one" id="qualification">
+    <section class="page-section bg-one" id="portfolio">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Квалификация</h2>
@@ -101,8 +101,19 @@
                     <p class="wow-outer"><span class="wow">Позиционирую себя как онлайн-преподаватель использующий в работе обучающие инструменты (Miro, Quizlet, Wordwall), различные ресурсы и учебники (Speakout, Outcomes, English file, Cutting edge, Life), программы удаленного группового общения (Google Meet, Zoom, VooV, Skype).</span></p>
                     <p class="wow-outer"><span class="wow">Несмотря на 10-летний опыт, я постоянно совершенствую свою квалификацию используя новейшие методики преподавания. Мой уровень подтверждён сертификатом TESOL/TEFL. Искать и находить новое, делиться этим со  своими учениками - это круто!</span></p>
                 </div>
-                <div class="col-md-10 col-lg-6 wow-outer"><img class="img-responsive" src="assets/img/qualification.jpg" alt="">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/diplom.jpg" alt="..." />
+                        </a>
+                    </div>
                 </div>
+                <!-- <div class="col-md-10 col-lg-6 wow-outer"><img class="img-responsive" src="assets/img/qualification.jpg" alt="">
+                </div> -->
             </div>
         </div>
     </section>
@@ -162,7 +173,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-services-item">
                         <h3>Стоимость обучения (за час)</h3>
-                        <p>Индивидуыльные уроки - от 8 евро. Парные уроки (2 чел.) - от 6 евро. Групповые уроки (4-6 чел.) - от 5 евро.</p>
+                        <p>Индивидуальные уроки - от 8 евро. Парные уроки (2 чел.) - от 6 евро. Групповые уроки (4-6 чел.) - от 5 евро.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -303,11 +314,32 @@
             </div>
         </div>
     </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->                                
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/diplom.jpg" alt="..."> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="assets/js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    
 
     <!-- Accordion JS-->
     <script src="assets/js/jquery.min.js"></script>
